@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "title": "Example Block",
+  "description": "An Example Block",
+  "textdomain": "pms",
+  "name": "pms/example",
+  "icon": "feedback",
+  "category": "pms-theme-blocks",
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  },
+  "example": {
+    "attributes": {
+      "title": "Example Block"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:../../../build/blocks/example-block/editor.js",
+  "editorStyle": "file:../../../build/blocks/example-block.css"
+}

@@ -1,0 +1,102 @@
+.tenup-panel__body .components-panel__row {
+	flex-wrap: wrap;
+}
+
+.editor-styles-wrapper .slide-content .hero-popup-video {
+	padding-top: 10px;
+}
+
+.background-image-wrap {
+	width: 100%;
+	text-align: right;
+}
+
+.background-image {
+	width: 100%;
+	background: #FFF;
+	border: 1px dashed #000;
+	justify-content: center;
+	padding: 20px;
+	display: block;
+	height: auto;
+	margin-bottom: 0.5rem;
+}
+
+.background-image:hover {
+	background: #f6f7f7;
+	color: #000;
+}
+
+.bg-image {
+	position: relative;
+}
+
+.bg-image button.remove-btn {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #c52929;
+	border: 0;
+	color: #FFF;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.hero-video-url-row {
+	width: 100%;
+}
+
+.hero-video-url-row .block-editor-link-control {
+	min-width: 1px;
+	max-width: 100%;
+	width: 100%;
+}
+
+.hero-video-url-row .block-editor-link-control .block-editor-link-control__search-item {
+	padding: 0;
+	width: 100%;
+}
+
+.hero-video-url-row .block-editor-link-control .block-editor-link-control__search-item .block-editor-link-control__search-item-top {
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.hero-video-url-row .block-editor-url-input {
+	margin: 0 0 10px 0;
+}
+
+.hero-video-url-row .not-valid-video {
+	margin: 0;
+	padding: 5px;
+}
+
+.total-images {
+	font-size: 14px;
+	display: block;
+	color: #3e4346;
+}
+
+.total-images .count {
+	color: #869297;
+	margin-top: 0.5rem;
+	display: block;
+}
+
+.total-images .count strong {
+	font-weight: 900;
+	color: #3e4346;
+}
+
+.button.danger {
+	background: #FFF;
+	border-color: #d01f29;
+	color: #d01f29;
+	margin-bottom: 0.5rem;
+}
+
+.button.danger:hover {
+	background: #d01f29;
+	color: #fff;
+	border-color:#d01f29;
+}

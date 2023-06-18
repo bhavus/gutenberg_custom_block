@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "title": "Hero Block",
+  "description": "The Hero blocks appear at the top of the pages ",
+  "textdomain": "pms",
+  "name": "pms/hero",
+  "icon": "slides",
+  "category": "pms-theme-blocks",
+  "attributes": {
+    "background_image": {
+      "type": "array",
+      "default": {}
+    },
+    "popup_video": {
+      "type": "boolean"
+    },
+    "popup_video_url": {
+      "type": "object"
+    }
+  },
+  "example": {
+    "attributes": {}
+  },
+  "supports": {
+    "align": [ "wide", "full" ],
+    "html": false,
+    "color": {
+      "link": false,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": false
+      }
+    }
+  },
+  "editorScript": "file:../../../build/blocks/hero-block/editor.js",
+  "editorStyle": "file:../../../build/blocks/hero-block.css"
+}

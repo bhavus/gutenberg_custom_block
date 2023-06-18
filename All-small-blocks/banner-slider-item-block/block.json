@@ -1,0 +1,16 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "title": "Banner Slider Item",
+  "description": "Display an slide item",
+  "textdomain": "pms",
+  "name": "pms/banner-slider-item-block",
+  "icon": "text-page",
+  "category": "pms-theme-blocks",
+  "attributes":{},
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:../../../build/blocks/banner-slider-item-block/editor.js",
+  "editorStyle": "file:../../../build/blocks/banner-slider-item-block.css"
+}

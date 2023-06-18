@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "title": "Hero Inside Block",
+  "description": "The Hero inside blocks appear at the top of the inside pages",
+  "textdomain": "pms",
+  "name": "pms/hero-inside",
+  "icon": "admin-generic",
+  "category": "pms-theme-blocks",
+  "attributes": {
+    "hero_right_image": {
+      "type": "string"
+    },
+    "hero_right_image_alt": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:../../../build/blocks/hero-inside-block/editor.js",
+  "editorStyle": "file:../../../build/blocks/hero-inside-block.css"
+}

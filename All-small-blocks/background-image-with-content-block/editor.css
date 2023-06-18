@@ -1,0 +1,29 @@
+.bg-img-content-wrap {
+
+	& .bg-img-content {
+
+		& .bg-image-right-content {
+			flex: 0 0 100% !important;
+			max-width: 100% !important;
+
+			& .content-lists {
+
+				& ul {
+					& li {
+						margin: 10px 0 !important;
+					}
+				}
+
+				& ul.is-selected {
+					background-color: #eff4f757;
+					box-shadow: 0 0 10px #000;
+					padding: 20px !important;
+
+					& li {
+						border-bottom: 1px solid #ccc;
+					}
+				}
+			}
+		}
+	}
+}

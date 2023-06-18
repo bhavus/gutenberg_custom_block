@@ -1,0 +1,9 @@
+/**
+ * Team Block
+ * This file is for CSS admin overrides only.
+ * Use theme files for standard CSS work.
+ */
+.editor-styles-wrapper .author-page-info .author-info a img {
+	height: auto;
+	width: auto;
+}

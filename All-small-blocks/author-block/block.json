@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"title": "Author Block",
+	"description": "An Author Example Block",
+	"textdomain": "pms",
+	"name": "pms/author-block",
+	"icon": "businessman",
+	"category": "pms-theme-blocks",
+	"attributes": {
+		"background_color": {
+			"type": "string",
+			"default": "#292d2f"
+		},
+		"backgroundImage": {
+			"type": "string"
+		},
+		"authorImage": {
+			"type": "string"
+		},
+		"authorTitle": {
+			"type": "string",
+			"default": ""
+		},
+		"authorContent": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"example": {
+	  "attributes": {
+		"title": "Author Example Block"
+	  }
+	},
+	"supports": {
+	  "html": false
+	},
+	"editorScript": "file:../../../build/blocks/author-block/editor.js",
+	"editorStyle": "file:../../../build/blocks/author-block.css"
+  }
+  

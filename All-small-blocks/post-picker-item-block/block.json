@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "title": "Post Picker Item",
+  "description": "Display selected post in single layout",
+  "textdomain": "pms",
+  "name": "pms/post-picker-item",
+  "icon": "welcome-write-blog",
+  "category": "pms-theme-blocks",
+  "attributes": {
+    "hide_overline" : {
+      "type": "boolean",
+      "default": false
+    },
+    "hide_image" : {
+      "type": "boolean",
+      "default": false
+    },
+    "hide_headline" : {
+      "type": "boolean",
+      "default": false
+    },
+    "hide_excerpt" : {
+      "type": "boolean",
+      "default": false
+    },
+    "hide_link" : {
+      "type": "boolean",
+      "default": false
+    },
+    "selected_post":  {
+      "type": "object"
+    },
+    "selected_taxonomy": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:../../../build/blocks/post-picker-item-block/editor.js",
+  "editorStyle": "file:../../../build/blocks/post-picker-item-block.css"
+}

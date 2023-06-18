@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "title": "Banner Slider Block",
+  "description": "An Banner Slider Block",
+  "textdomain": "pms",
+  "name": "pms/banner-slider",
+  "icon": "slides",
+  "category": "pms-theme-blocks",
+  "attributes":{
+    "background_image": {
+      "type": "string"
+    }
+  },
+  "example": {
+    "attributes": {
+      "title": "Slider Example Block"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:../../../build/blocks/banner-slider-block/editor.js",
+  "editorStyle": "file:../../../build/blocks/banner-slider-block.css"
+}

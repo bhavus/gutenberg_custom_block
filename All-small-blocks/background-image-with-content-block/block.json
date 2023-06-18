@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "title": "Background image with content",
+  "description": "Display background image with content",
+  "textdomain": "pms",
+  "name": "pms/background-image-with-content",
+  "icon": "welcome-widgets-menus",
+  "category": "pms-theme-blocks",
+  "attributes": {
+    "background_image": {
+      "type": "object",
+      "default": {}
+    }
+  },
+  "supports": {
+    "align": [ "wide", "full" ],
+    "html": false,
+    "color": {
+      "link": false,
+      "__experimentalDefaultControls": {
+        "background": true,
+        "text": false
+      }
+    }
+  },
+  "editorScript": "file:../../../build/blocks/background-image-with-content-block/editor.js",
+  "editorStyle": "file:../../../build/blocks/background-image-with-content-block.css"
+}

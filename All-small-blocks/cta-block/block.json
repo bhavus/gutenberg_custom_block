@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"title": "CTA Block",
+	"description": "An CTA Example Block",
+	"textdomain": "pms",
+	"name": "pms/cta",
+	"icon": "feedback",
+	"category": "pms-theme-blocks",
+	"attributes": {
+		"background_color": {
+			"type": "string",
+			"default": "#292d2f"
+		},
+		"backgroundImage": {
+			"type": "string"
+		},
+		"CTAImage": {
+			"type": "string"
+		},
+		"CTATitle": {
+			"type": "string",
+			"default": ""
+		},
+		"CTAContent": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"example": {
+	  "attributes": {
+		"title": "CTA Example Block"
+	  }
+	},
+	"supports": {
+	  "html": false
+	},
+	"editorScript": "file:../../../build/blocks/cta-block/editor.js",
+	"editorStyle": "file:../../../build/blocks/cta-block.css"
+  }
+  

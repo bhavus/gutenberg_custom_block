@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "title": "Post Picker",
+  "description": "Display selected post in single layout",
+  "textdomain": "pms",
+  "name": "pms/post-picker",
+  "icon": "screenoptions",
+  "category": "pms-theme-blocks",
+  "attributes": {
+    "columns": {
+      "type": "number",
+      "default": 3
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:../../../build/blocks/post-picker-block/editor.js",
+  "editorStyle": "file:../../../build/blocks/post-picker-block.css"
+}
