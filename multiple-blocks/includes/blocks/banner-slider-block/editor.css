@@ -1,0 +1,90 @@
+/**
+ * Banner Slider Block
+ * This file is for CSS admin overrides only.
+ * Use theme files for standard CSS work.
+ */
+
+:root {
+	--white-color: #fff;
+	--banner-bg-color: #3c4a3e;
+	--black-color: #000;
+	--blue-color: #007cba;
+	--red-color: #e31212;
+}
+
+.editor-styles-wrapper .wp-block-chia-banner-slider > .superhero {
+	background-color: var(--banner-bg-color);
+	background-position: 50%;
+	background-repeat: repeat;
+	background-size: contain;
+	color: var(--white-color);
+}
+
+.superhero-bg-container {
+	background-position: 100%;
+	background-repeat: repeat-y;
+	background-size: 29rem auto;
+	padding-right: 30.83%;
+}
+
+.banner-container {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 90rem;
+}
+
+.superhero-layout-container {
+	padding: 14% 7% 25% 12%;
+}
+
+.wp-block-button {
+	margin-top: 1.5rem;
+}
+
+.wp-block-button a {
+	font-weight: 700;
+}
+
+.superhero h2 {
+	font-size: 2.625rem;
+	line-height: 1.1428571429;
+}
+
+.superhero p {
+	font-size: 1rem;
+	line-height: 1.75;
+}
+
+.superhero a {
+	color: var(--banner-bg-color);
+	text-decoration: none;
+	transition: all 0.25s ease-in-out 0s;
+}
+
+button.components-button.add-slide-button {
+	color: var(--white-color);
+	border: 1px solid var(--white-color);
+	border-radius: 5px;
+}
+
+button.components-button.add-slide-button:hover {
+	color: var(--black-color);
+	background: var(--white-color);
+	border-radius: 5px;
+}
+
+.banner-add-image {
+	color: var(--blue-color);
+}
+
+.banner-remove-image {
+	color: var(--red-color);
+}
+
+@media only screen and (max-width: 1600px) {
+
+	.editor-styles-wrapper .wp-block-chia-banner-slider .superhero-layout-container {
+		padding: 13% 38% 18% 12%;
+	}
+}

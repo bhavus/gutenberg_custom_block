@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "twitchstreams/block-five",
+	"version": "0.1.0",
+	"title": "five Block",
+	"category": "design",
+	"icon": "smiley",
+	"description": "The four block!",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "multiple-blocks",
+	"editorScript": "file:../../../build/block-five.js",
+	"editorStyle": "file:../../../build/block-five.css",
+	"style": "file:../../../build/style-block-five.css"
+}

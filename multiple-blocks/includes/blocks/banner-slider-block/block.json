@@ -1,0 +1,20 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "title": "Banner Slider Block",
+  "description": "An Banner Slider Block",
+  "textdomain": "chia-theme",
+  "name": "chia/banner-slider",
+  "icon": "slides",
+  "category": "chia-theme-blocks",
+  "attributes":{
+    "background_image": {
+      "type": "string"
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:../../../dist/blocks/banner-slider-block/editor.js",
+  "editorStyle": "file:../../../dist/blocks/banner-slider-block/editor.css"
+}
